@@ -42,6 +42,7 @@ exports.login = function(req, res){
         req.session.user = user.id;
         req.session.username = user.username;
         req.session.msg = 'Authenticated as ' + user.username;
+        req.session.picture = user.picture;
         req.session.bio = user.bio;
         res.redirect('/');
       });
@@ -77,6 +78,8 @@ exports.updateUser = function(req, res){
         res.sessor.error = err;
       } else {
         req.session.msg = 'User Updated.';
+        req.session.email = req.body.email;
+        req.session.picture = req.body.picture;
         req.session.bio = req.body.bio;
       }
       res.redirect('/user');
