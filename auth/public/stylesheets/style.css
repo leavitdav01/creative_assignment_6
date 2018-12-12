@@ -1,0 +1,58 @@
+.navbar-inverse {
+	background: #f9f9f9;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #565656;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #565656;
+}
+
+body {
+    background: url(https://www.pets4homes.co.uk/images/articles/2670/large/ways-in-which-the-dewclaws-can-serve-an-important-purpose-for-the-dog-54f74b686bbe8.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 3em;
+}
+
+span {
+	color: black;
+}
+
+#content{
+    margin-top: 17%;
+	padding: .5em 1em 1em 1em;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    font-size: 1.7em;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 20px;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#signUpLink {
+    color: white;
+}
+
